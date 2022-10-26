@@ -1,0 +1,233 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .listing__desc {
+        width: 700px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header-banner__title {
+        font-size: 45px;
+    }
+
+    .header-banner__subtitle {
+        font-size: 35px;
+    }
+
+    .header-banner__bottom {
+        width: 730px;
+    }
+
+    .slick-slide img {
+        height: 300px;
+    }
+
+    .listing__body {
+        flex-direction: column;
+    }
+
+    .listing__desc {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .listing__info {
+        width: 100%;
+    }
+
+    .listing__info-btn {
+        width: 450px;
+        margin: 0 auto;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .listings__item-img figure img {
+        min-width: 250px;
+    }
+
+    .header-banner__bottom {
+        width: 550px;
+    }
+
+    .slick-slide img {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width : 599px) {
+    .category__item {
+        text-align: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width : 575px) {
+    section {
+        padding: 30px 0;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .list .listings__item {
+        flex-direction: column;
+    }
+
+    .list .listings__item-img {
+        margin-bottom: 10px;
+    }
+
+    .list .listings__item-img figure img {
+        height: 300px;
+        max-width: 100%;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        transition: 0s;
+    }
+
+    .list .listings__item-img figure {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .list .listings__item-body {
+        padding: 18px 0 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .listings__items.grid {
+        flex-direction: column;
+    }
+
+    .grid .grid-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .listings__sort {
+        display: none;
+    }
+
+    .header-banner__bottom {
+        width: 370px;
+    }
+
+    .footer__copy,
+    .footer__agreement {
+        font-size: 14px;
+    }
+
+    .slick-dots {
+        display: none !important;
+    }
+
+    .listing__info-btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .listing__comments-body .form-submit input,
+    .listing__comments-body .comment-form-comment input#author,
+    .listing__comments-body .comment-form-comment input#email,
+    .listing__comments-body .comment-form-author input#author,
+    .listing__comments-body .comment-form-author input#email,
+    .listing__comments-body .comment-form-email input#author,
+    .listing__comments-body .comment-form-email input#email {
+        width: 100%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .header-banner__title {
+        font-size: 35px;
+    }
+
+    .header-banner__subtitle {
+        font-size: 25px;
+    }
+
+    .header-banner__bottom {
+        padding: 5px;
+    }
+
+    .header-banner__form input[type=text] {
+        font-size: 13px;
+    }
+
+    .category__name {
+        font-size: 14px;
+    }
+
+    .listings__item-reviews,
+    .listings__item-phone,
+    .listings__item-web,
+    .listings__item-location,
+    .listings__item-desc,
+    .listings__item-category {
+        margin-bottom: 3px;
+        font-size: 13px;
+    }
+
+    .footer__body {
+        flex-direction: column;
+    }
+
+    .footer__copy,
+    .footer__agreement {
+        margin: 2px 0;
+    }
+
+    .breadcrumbs {
+        font-size: 12px;
+    }
+
+    .listing__meta,
+    .listing__comments-body .navigation,
+    .listing__comments-body .comment-form-cookies-consent,
+    .listing__comments-body .comment-notes {
+        font-size: 13px;
+    }
+
+    .listing__desc-title,
+    .listing__info-title,
+    .listing__comments-body #comments,
+    .listing__comments-body .comment-reply-title {
+        font-size: 18px;
+    }
+
+    .listing__desc-text,
+    .listing__info-phone,
+    .listing__info-web,
+    .listing__info-location {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .header-banner__bottom {
+        width: 300px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .header-banner__bottom {
+        display: none;
+    }
+}

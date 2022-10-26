@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-out 0s;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    margin-right: 5px;
+}
+
+h1 {
+    color: $primary-color;
+    @extend %roboto-bold;
+    font-size: 35px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+h2 {
+    color: $primary-color;
+    @extend %roboto-bold;
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+h3 {
+    color: $primary-color;
+    @extend %roboto-bold;
+    font-size: 23px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+h4 {
+    color: $primary-color;
+    @extend %roboto-bold;
+    font-size: 20px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    @extend %roboto-regular;
+    background-color: $body-bg-color;
+    color: $body-color;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.bg-green {
+    background-color: #30B507;
+}
+
+.bg-purple {
+    background-color: #f51957;
+}
+
+.bg-gray {
+    background-color: #605f74;
+}
+
+.color-gray {
+    color: #605f74;
+}
+
+.color-purple {
+    color: #f51957;
+}
+
+.btn {
+    padding: 0 30px;
+    min-height: 48px;
+    border: 0;
+    background-color: $secondary-color;
+    color: $white-color;
+    cursor: pointer;
+
+    &:hover {
+        border: 0;
+        opacity: .9;
+    }
+}
+
+section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
